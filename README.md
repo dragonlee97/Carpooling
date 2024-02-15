@@ -1,7 +1,10 @@
 # Documentation
+A real business context of carpooling: A driver can publish carpooling trips that riders can book according to their needs (departure & destination)
 # OLTP
+Normalized OLTP tables which store event data from software.
 ![OLTP MODEL](https://github.com/dragonlee97/blablacar_exercise/blob/main/images/OLTP.png?raw=true)
 # OLAP
+Here below are 3 data marts created using One Big Table(OBT) methodology.
 ![OLAP MODEL](https://github.com/dragonlee97/blablacar_exercise/blob/main/images/OLAP.png?raw=true)
 ## Trip Offer Datamart
 - **Description**: This datamart is used to analyse the trip offers supply on capacity, route planning, pricing etc.
